@@ -10,7 +10,7 @@ const ContactList = () => {
       {contacts.map((contact) => {
         return (
           <li key={contact.id} className={s.contactItem}>
-            <Contact contactInfo={contact} onDelete={onDelete} />
+            <Contact contactInfo={contact} />
           </li>
         );
       })}
