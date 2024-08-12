@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { addTask, deleteTask, fetchTasks, toggleCompleted } from './operations';
 
-const handPend = (state, action) => {
+const handPend = (state) => {
   state.isLoading = true;
 };
 
